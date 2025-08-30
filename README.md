@@ -1,12 +1,47 @@
-# React + Vite
+# Museu Emilio Goeldi Children's Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the interactive children's game developed for the Museu Emilio Goeldi, located in Belém do Pará, Brazil. This project aims to provide an engaging and educational experience for children, allowing them to explore the rich history, culture, and paleontological heritage of the museum through immersive 3D models and interactive gameplay.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This web application showcases realistic 3D models of prehistoric animals, enabling children to interact with and learn about the museum's collection in a playful and intuitive way. The game is designed to be accessible, visually appealing, and easy to use for young audiences.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: Modern JavaScript library for building user interfaces, ensuring a responsive and dynamic experience.
+- **Vite**: Fast build tool and development server for rapid prototyping and efficient bundling.
+- **Three.js**: Powerful 3D graphics library for rendering interactive models in the browser.
+- **@react-three/fiber**: React renderer for Three.js, enabling seamless integration of 3D content within React components.
+- **@react-three/drei**: Collection of useful helpers and abstractions for Three.js in React, simplifying 3D scene management and controls.
+- **GLTF Models**: High-quality 3D models in GLTF format representing prehistoric animals from the museum's collection.
+
+## Features
+
+- Interactive 3D models of animals such as Smilodon, Megatherium, Doedicurus, and Terror Bird.
+- Intuitive controls for exploring and interacting with the models.
+- Educational content designed for children, promoting curiosity and learning.
+- Modern, responsive design suitable for desktops and tablets.
+
+## Getting Started
+
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+2. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+3. **Open your browser** and navigate to `http://localhost:5173` to explore the game.
+
+## About the Museu Emilio Goeldi
+
+The Museu Paraense Emílio Goeldi is a renowned research institution and museum in Belém do Pará, dedicated to the study and preservation of the Amazon's natural and cultural heritage. This project is inspired by the museum's commitment to education and aims to make its collection accessible to children through technology and play.
+
+## License
+
+This project is for educational and non-commercial use, developed to support the outreach efforts of the Museu Emilio Goeldi.
+
+---
+
+For questions or contributions, please contact the project maintainer.
